@@ -45,7 +45,7 @@ require(['devtools-detector'], function(devtoolsDetector) {
 ### No Module System
 
 ```html
-<script src="node_modules/devtools-detector/lib/devtools-detector.js"></script>
+<script src="node_modules/devtools-detector/lib/adtools.js"></script>
 <script>
   var view = document.createElement('div');
   document.body.appendChild(view);

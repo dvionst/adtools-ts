@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'devtools-detector.js',
+    filename: 'adtools.js',
     library: 'devtoolsDetector',
     libraryTarget: 'umd'
   },

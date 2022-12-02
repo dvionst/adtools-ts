@@ -1,8 +1,8 @@
 {
-  "name": "devtools-detector",
+  "name": "adtools-ts",
   "version": "2.0.14",
-  "description": "devtools-detector",
-  "main": "lib/devtools-detector.js",
+  "description": "adtools-ts",
+  "main": "lib/adtools.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "build": "webpack --watch",
@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AEPKILL/devtools-detector"
+    "url": "https://github.com/dvionst/adtools-ts"
   },
   "keywords": [
-    "devtools-detect",
-    "devtools-detector"
+    "adtools-ts"
   ],
   "files": [
     "lib"
@@ -25,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AEPKILL/devtools-detector/issues"
+    "url": "https://github.com/dvionst/adtools-ts/issues"
   },
-  "homepage": "https://github.com/AEPKILL/devtools-detector#readme",
+  "homepage": "https://github.com/dvionst/adtools-ts#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "http-server": "^0.11.1",
