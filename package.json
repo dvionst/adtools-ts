@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --watch",
     "example": "http-server -o",
-    "install": "npm run build"
+    "prepare": "webpack --watch"
   },
   "repository": {
     "type": "git",
