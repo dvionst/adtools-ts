@@ -6,7 +6,7 @@ import { isEdge, isIE } from './context';
  *
  */
 function cacheConsoleMethod<K extends keyof Console>(name: K): Console[K] {
-  if (console) {
+  if (console && name != 'clear') {
     if (isIE || isEdge) {
       // IE 没有 console.table
       if (name === 'log' || name === 'clear') {
