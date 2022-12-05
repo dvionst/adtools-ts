@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --watch",
     "example": "http-server -o",
-    "prepare": "webpack"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",

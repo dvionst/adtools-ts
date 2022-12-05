@@ -12,7 +12,7 @@ const defaultDetector = new DevtoolsDetector({
     checkers.depRegToStringChecker,
     checkers.dateToStringChecker,
     checkers.performanceChecker,
-    checkers.debuggerChecker,
+    // checkers.debuggerChecker,
   ],
 });
 
